@@ -4,7 +4,11 @@ body {
 }
 <head>
 <style>
-<h1>
+<h1 h1 {
+  color: darkmagenta;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 2px;
+}>
 color: #2c3e50;
 font-size: 48px;
 text-transform: uppercase;
