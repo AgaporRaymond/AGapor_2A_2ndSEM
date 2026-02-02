@@ -1,20 +1,25 @@
+/* Styling para sa buong page */
 body {
-  background-color: #f0f0f0;
-  font-family: sans-serif;
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
 }
-<head>
-<style>
-h1 {
-  color: darkmagenta;
-  font-family: 'Arial', sans-serif;
-  letter-spacing: 2px;
-}
-<h1>
 
-color: dodgerblue;
-font-size: 48px;
-text-transform: uppercase;
-border-bottom: 2px solid red;
-</h1>
-</style>
-</head>
+/* Styling para sa lahat ng h1 */
+h1 {
+    color: darkmagenta;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    font-size: 48px;
+}
+
+/* Styling para sa images para hindi masyadong malaki */
+img {
+    max-width: 300px;
+    display: block;
+    margin: 10px 0;
+}
